@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <header class="has-background-link">
+    <h1 class="is-size-1 has-text-weight-light has-text-centered">
+      Weather Updates
+    </h1>
+  </header>
+  <body class="has-background-grey-light has-text-white">
+    <main>
+      <article id="form" class="form py-4 column is-3">
+        <label for="search-city">Search your city</label>
+        <input type="text" name="Search" id="search-city" />
+        <button id="submit" class="btn">Submit</button>
+      </article>
+      <section id="firstD" class="columns is-centered"></section>
+
+      <section id="container" class="columns is-centered"></section>
+    </main>
+  </body>
+  <footer></footer>
+  <script src="./assets/js/script.js"></script>
+</html>

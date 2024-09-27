@@ -1,0 +1,36 @@
+header {
+  color: white;
+  margin: 50px;
+  padding: 25px;
+}
+.card {
+  padding: 10px;
+  width: 215px !important;
+  border: 2px solid white;
+  background-color: rgb(72, 96, 235);
+  margin: 20px;
+  color: white;
+}
+.cityButton {
+  position: relative;
+  left: 0px;
+  bottom: -50px;
+  width: 115px;
+  height: 45px;
+  border: 2px solid white;
+  margin: 15px;
+}
+.firstday {
+  width: 400px !important;
+}
+/* input[type="text"] {
+  width: 100%;
+  padding: 20px 2px;
+  margin: 8px 15px;
+  box-sizing: border-box;
+}
+*/
+label {
+  padding: 2px;
+  margin: 8px 0;
+}
